@@ -1,0 +1,46 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    diff命令帮助我们定位两个版本文件之间的差异，从而减轻了我们检查代码的负担。
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    如果编程者无意识地写死了代码，他可以通过查看旧版本恢复一个能使用的程序。
+
+    git log
+    git diff
+What do yu think are the pros and cons of manually choosing when to create a
+commit, like you do in Git9, vs having versions automatically saved, like Google
+docs does?
+
+    手动提交灵活性更大，而且用户本身也更加明白更改的逻辑联系；但是用户可能会犯错。
+    自动提交好处是保存的更改是平均的，不好的地方在于可能两个版本之间并无具体的逻辑变化。
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    因为代码中不同文件之间存在着消息的传递。
+    b0678b161fcf74467ed3a63110557e3d6229cfa6
+    b0678b161fcf74467ed3a63110557e3d6229cfa6
+    f19cb1b80fe27e938e4d72770ca0a42f25e99ecc
+    git config --global color.ui auto
+How can you use the commands git log and git diff to view the history of files?
+
+    git log命令直接查看往期版本，每一个版本都有Commit ID，Author，Date， 提示Message四项内容；
+    git diff old_file new_file
+
+How might using version control make you more confident to make changes that
+could break something?
+    3884eab839af1e82c44267484cf2945a766081f3
+    3e42136a76cf78c6c421cd720427bf6337c2d623
+    4035769377cce96a88d5c1167079e12f30492391
+    25ede836903881848fea811df5b687b59d962da3
+    df035382c41b4d0cda86a1aa30b53f15bef05b53
+    b0678b161fcf74467ed3a63110557e3d6229cfa6
+    因为git checkout可以返回到之前的版本，这样即使破坏也有后悔药吃
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    进行版本控制，帮助更好地进行学习。
