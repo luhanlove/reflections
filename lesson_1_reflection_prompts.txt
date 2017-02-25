@@ -44,3 +44,9 @@ could break something?
 Now that you have your workspace set up, what do you want to try using Git for?
 
     进行版本控制，帮助更好地进行学习。
+    c12dc49709452bcfb6084b3cc7dc86042cb78ca3
+    71d52709ddc4066e7a79a1d0a412e43429a0cdeb
+    708bcce690e5faa5739bd471507c102ea16b77f7
+
+    746f762e38b5bbb7d0b837464ef6ec3f8ee5bf91
+    9c76f50d1aaaa3ac9841286cca2b49bc67f29ae9
