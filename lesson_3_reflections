@@ -18,7 +18,7 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    便于pull和push，当需要从远程拷贝到本地时，本地副本提供了一个类似日志的很好的提醒机制。
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
