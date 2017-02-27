@@ -5,7 +5,8 @@ local?
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+    手动拉取和推送更加灵活。自动同步版本没有手动拉取多次提交有效。
+    而且用户可能会再度进行更改，自动同步版本可能会会错用户的意思。
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
